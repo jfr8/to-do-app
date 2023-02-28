@@ -1,6 +1,11 @@
 body{
-    background-color: #352f5b;
+    background-color: #9b96ba;
     color: rgba(255, 255, 255, 0.871)
+}
+
+h1 {
+    font-family: cursive;
+    color: white;
 }
 
 .container{
@@ -17,9 +22,14 @@ input[type=text]:focus{
 }
 
 .todos li{
-    background: #423a6f;
+    background: #504e5e;
     color: white;
 }
 .delete {
     cursor: pointer;
+}
+
+.add {
+    float: center;
+    font-family: cursive;
 }
